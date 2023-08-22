@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <!--Webpage Stylesheets/Sources-->
+  <!--Jquery src-->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+   <!--Stylesheet-->
+  <link rel="stylesheet" href="stylesheet.css">
+   <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+
+  <div class="container">
+
+    <!-- Gameboard Module -->
+ 
+    
+      <div class="header text-center p-3" >
+        <h1>Tic-Tac-Toe</h1>
+      </div>
+
+
+      <div class="container-fluid content-row" id="gameModule">
+
+        <!-- Row Start -->
+        <div class="row p-3 justify-content-center">
+
+          <!-- X or O Card -->
+          <div class="col-sm-12 col-md-2">
+            <div class="card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img" alt="...">
+            </div>
+          </div>
+          
+          <!-- X or O Card -->
+          <div class="col-sm-12 col-md-2 ">
+            <div class="card h-100 justify-content-center">
+              <img src="assets/OPic.png" class="card-img" alt="...">
+            </div>
+          </div>
+          
+          <!-- X or O Card -->
+          <div class="col-sm-12 col-md-2">
+            <div class="card h-100 justify-content-center">
+              <img src="assets/XPic.png" class="card-img" alt="...">
+            </div>
+          </div>
+        </div>
+     
+      </div>
+      <!-- Row Start -->
+      <div class="row p-3 justify-content-center">
+
+        <!-- X or O Card -->
+        <div class="col-sm-12 col-md-2">
+          <div class="card h-100 justify-content-center">
+            <img src="assets/blank.png" class="card-img" alt="...">
+          </div>
+        </div>
+        
+        <!-- X or O Card -->
+        <div class="col-sm-12 col-md-2 ">
+          <div class="card h-100 justify-content-center">
+            <img src="assets/OPic.png" class="card-img" alt="...">
+          </div>
+        </div>
+        
+        <!-- X or O Card -->
+        <div class="col-sm-12 col-md-2">
+          <div class="card h-100 justify-content-center">
+            <img src="assets/XPic.png" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
+   
+    
+    <!-- Row Start -->
+    <div class="row p-3 justify-content-center">
+
+      <!-- X or O Card -->
+      <div class="col-sm-12 col-md-2">
+        <div class="card h-100 justify-content-center">
+          <img src="assets/blank.png" class="card-img" alt="...">
+        </div>
+      </div>
+      
+      <!-- X or O Card -->
+      <div class="col-sm-12 col-md-2 ">
+        <div class="card h-100 justify-content-center">
+          <img src="assets/OPic.png" class="card-img" alt="...">
+        </div>
+      </div>
+      
+      <!-- X or O Card -->
+      <div class="col-sm-12 col-md-2">
+        <div class="card h-100 justify-content-center">
+          <img src="assets/XPic.png" class="card-img" alt="...">
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+      
+  </div>
+
+  <!--Mustache src-->
+  <script src="https://unpkg.com/mustache@latest"></script>
+   <!--Javascript src-->
+  <script src="pubsub.js"></script>
+  <script src="stats.js"></script>
+  <script src="gameboard.js"></script>  
+  
+</body>
+
+</html>
