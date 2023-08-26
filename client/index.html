@@ -14,100 +14,86 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     
 </head>
-<body>
-
+<body class="bg-secondary">
 
   <div class="container">
 
     <!-- Gameboard Module -->
  
-    
-      <div class="header text-center p-3" >
-        <h1>Tic-Tac-Toe</h1>
+    <div class="container-fluid content-row" id="gameModule">
+      <div class="header text-center  p-3">
+        <h1 class="p-3">Tic-Tac-Toe</h1>
+       
       </div>
+      
+      <div id="gameboard">
+        <div class="row p-3 justify-content-center"> 
+        
+          <div class="col-sm-2" id="col-1">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
+            </div>
+          </div>
 
-
-      <div class="container-fluid content-row" id="gameModule">
-
-        <!-- Row Start -->
-        <div class="row p-3 justify-content-center">
-
-          <!-- X or O Card -->
-          <div class="col-sm-12 col-md-2">
-            <div class="card h-100 justify-content-center">
-              <img src="assets/blank.png" class="card-img" alt="...">
+          <div class="col-sm-2" id="col-2">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
             </div>
           </div>
           
-          <!-- X or O Card -->
-          <div class="col-sm-12 col-md-2 ">
-            <div class="card h-100 justify-content-center">
-              <img src="assets/OPic.png" class="card-img" alt="...">
+          <div class="col-sm-12 col-md-2" id="col-3">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row p-3 justify-content-center"> 
+        
+          <div class="col-sm-2" id="col-1">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
+            </div>
+          </div>
+
+          <div class="col-sm-2" id="col-2">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
             </div>
           </div>
           
-          <!-- X or O Card -->
-          <div class="col-sm-12 col-md-2">
-            <div class="card h-100 justify-content-center">
-              <img src="assets/XPic.png" class="card-img" alt="...">
+          <div class="col-sm-12 col-md-2" id="col-3">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
             </div>
           </div>
+          
         </div>
-     
-      </div>
-      <!-- Row Start -->
-      <div class="row p-3 justify-content-center">
 
-        <!-- X or O Card -->
-        <div class="col-sm-12 col-md-2">
-          <div class="card h-100 justify-content-center">
-            <img src="assets/blank.png" class="card-img" alt="...">
-          </div>
-        </div>
+        <div class="row p-3 justify-content-center"> 
         
-        <!-- X or O Card -->
-        <div class="col-sm-12 col-md-2 ">
-          <div class="card h-100 justify-content-center">
-            <img src="assets/OPic.png" class="card-img" alt="...">
+          <div class="col-sm-2" id="col-1">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
+            </div>
           </div>
-        </div>
-        
-        <!-- X or O Card -->
-        <div class="col-sm-12 col-md-2">
-          <div class="card h-100 justify-content-center">
-            <img src="assets/XPic.png" class="card-img" alt="...">
-          </div>
-        </div>
-      </div>
-   
-    
-    <!-- Row Start -->
-    <div class="row p-3 justify-content-center">
 
-      <!-- X or O Card -->
-      <div class="col-sm-12 col-md-2">
-        <div class="card h-100 justify-content-center">
-          <img src="assets/blank.png" class="card-img" alt="...">
+          <div class="col-sm-2" id="col-2">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
+            </div>
+          </div>
+          
+          <div class="col-sm-12 col-md-2" id="col-3">
+            <div class="move card h-100 justify-content-center">
+              <img src="assets/blank.png" class="card-img">
+            </div>
+          </div>
+          
         </div>
       </div>
-      
-      <!-- X or O Card -->
-      <div class="col-sm-12 col-md-2 ">
-        <div class="card h-100 justify-content-center">
-          <img src="assets/OPic.png" class="card-img" alt="...">
-        </div>
-      </div>
-      
-      <!-- X or O Card -->
-      <div class="col-sm-12 col-md-2">
-        <div class="card h-100 justify-content-center">
-          <img src="assets/XPic.png" class="card-img" alt="...">
-        </div>
-      </div>
-    </div>
- 
-  </div>
-      
+    </div>  
   </div>
 
   <!--Mustache src-->
